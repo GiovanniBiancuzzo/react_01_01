@@ -1,7 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+import ButtonComponent from './components/ButtonComponent';
+import ImageComponent from './components/ImageComponent';
+
+
+function App () {
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +21,11 @@ function App() {
         >
           Learn React
         </a>
+        <br></br>
+        <ButtonComponent text="Prova a cliccarmi" />
+        <br></br>
+        <ImageComponent src="/public/wallpaper.png" alt="logo" width="200px" />
+
       </header>
     </div>
   );
