@@ -3,7 +3,7 @@
 import { Component } from "react";
 
 class ImageComponent extends Component {
-    render(props) {
+    render() {
         return (
             <img
                 src={this.props.src}

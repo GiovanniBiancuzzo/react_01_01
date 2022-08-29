@@ -11,20 +11,12 @@ function App () {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Primo esercizio con React
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        <ButtonComponent text="Prova a cliccarmi" href="https://reactjs.org" />
         <br></br>
-        <ButtonComponent text="Prova a cliccarmi" />
-        <br></br>
-        <ImageComponent src="/public/wallpaper.png" alt="logo" width="200px" />
+        <ImageComponent src="wallpaper.png" alt="logo" width="800px" />
 
       </header>
     </div>
