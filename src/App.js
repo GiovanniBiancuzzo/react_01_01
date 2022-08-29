@@ -16,7 +16,7 @@ function App () {
 
         <ButtonComponent text="Prova a cliccarmi" href="https://reactjs.org" className="link" />
         <br></br>
-        <ImageComponent src="wallpaper.png" alt="logo" width="800px" />
+        <ImageComponent src="wallpaper.png" alt="mountains" width="800px" />
 
       </header>
     </div>
