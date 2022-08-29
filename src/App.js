@@ -14,7 +14,7 @@ function App () {
           Primo esercizio con React
         </p>
 
-        <ButtonComponent text="Prova a cliccarmi" href="https://reactjs.org" />
+        <ButtonComponent text="Prova a cliccarmi" href="https://reactjs.org" className="link" />
         <br></br>
         <ImageComponent src="wallpaper.png" alt="logo" width="800px" />
 
